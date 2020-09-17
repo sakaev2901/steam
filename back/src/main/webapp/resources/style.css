@@ -1,0 +1,54 @@
+nav {
+    padding: 0 100px;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+form {
+    border: 2px black solid;
+    padding: 2em !important;
+    margin: 2em;
+    border-radius: 2em;
+}
+
+nav a {
+    color: orange !important;
+}
+
+.open-btn {
+    margin: 0 auto !important;
+}
+
+.card-action {
+    text-align: center !important;
+}
+
+.game-img {
+    max-width: 100%;
+}
+
+.manual-title h2{
+    padding: 0.5em !important;
+}
+
+.editor-title {
+    border: 1px gray solid !important;
+    padding: 1em !important;
+    font-size: 2em !important;
+    font-weight: bold;
+    box-sizing: border-box !important;
+}
+
+.manual-card img{
+    max-width: 100%;
+}
+
+.btn-container {
+    text-align: left;
+}
+
+.manual-text img{
+    max-width: 100% !important;
+}
