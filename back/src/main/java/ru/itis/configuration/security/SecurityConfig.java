@@ -36,7 +36,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/game/**").authenticated()
                 .antMatchers("/manual/editor/**").authenticated()
                 .antMatchers("/manual/**").authenticated()
-                .antMatchers("/games").authenticated()
+                .antMatchers("/games", "/").authenticated()
                 .antMatchers("/**").permitAll()
                 .and()
                 .formLogin()

@@ -27,7 +27,7 @@ public class GameController {
     @Autowired
     private GameService gameService;
 
-    @GetMapping("/games")
+    @RequestMapping(method = RequestMethod.GET, value = {"/games", "/"})
     public ModelAndView getGames() {
         try {
             ModelAndView modelAndView = new ModelAndView("games");

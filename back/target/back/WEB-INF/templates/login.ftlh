@@ -21,7 +21,7 @@
                     <label for="password">Password</label>
                 </div>
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Login</button>
+            <button class="btn grey darken-4 waves-effect" type="submit" name="action">Login</button>
         </form>
     </div>
 </@c.page>

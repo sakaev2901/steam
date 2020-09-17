@@ -21,7 +21,7 @@
                     <label for="password">Password</label>
                 </div>
             </div>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Sign Up</button>
+            <button class="btn waves-effect orange-text grey darken-4" type="submit" name="action">Sign Up</button>
         </form>
     </div>
 </@c.page>
